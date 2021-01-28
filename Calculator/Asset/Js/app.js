@@ -35,7 +35,7 @@ let div = function (a, b) {
         arr.forEach(function (numbers) {
             product *= parseInt(numbers);
         });
-        console.log("The sum of the numbers is: " + product);
+        console.log("The product of the numbers is: " + product);
     }
     if(choose === "/"){
         let num1 = prompt("Enter the first number: ");

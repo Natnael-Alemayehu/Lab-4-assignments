@@ -2,7 +2,7 @@
     userAmount = 1000;
     let ask = prompt("Welcome, What do you want to perform. \r\n 1. Balance \r\n 2. Withdraw \r\n 3. Deposit \r\n 4. Transfer");
     if(ask == 1){
-        console.log("Your account balance is: "+balance());    
+        console.log("Your account balance is: "+userAmount);    
     }
     else if(ask == 2){
         let amt = prompt("How much money do you want to withdraw? \r\nMaximum: 10,000 ");
